@@ -1,0 +1,26 @@
+
+.back{
+background-size: cover;
+background-position: 50%;
+outline-width:0%;
+height: 740px;
+overflow: auto;
+width: 50%;
+margin-right: 15%;
+
+}
+
+.front{
+
+   width: 4px;
+   height: 4px;
+   margin-right: 35%;
+   margin-bottom:300%;
+ 
+}
+
+.tow{
+justify-content: space-around;
+  display: flex;
+  
+}
