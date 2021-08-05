@@ -53,9 +53,8 @@ const SignIn = () => {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed} 
       style={{ width: "-50px", height:"-100px",paddingTop:"150px",marginLeft: "50px",marginRight:"40px"}} >
-        <h1>
-            Login to job Search
-          </h1>
+       <h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
       <Form.Item
         label="email"
         name="email"

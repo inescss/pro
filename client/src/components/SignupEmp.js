@@ -14,6 +14,7 @@ import Layout from './Layout';
 import './Sing.css';
  import { Redirect } from "react-router-dom";
  const { Option } = Select;
+ 
 
 const addresss = [
   {
@@ -137,7 +138,8 @@ const userRole="Employee"
       scrollToFirstError
       style={{marginLeft:"60px"}}
     >
-        <h1>Registre Employee</h1>
+         <h1 className="ligne">Hello, Employee!</h1>
+        <p className="par">Enter your personal details and start journey with us</p>
       <Form.Item
         name="email"
         label="E-mail"

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../redux/actions/ActionAuth";
+import './Sing.css';
 
 import {
   Form,
@@ -141,7 +142,8 @@ const userRole="Company"
       }}
       scrollToFirstError
     >
-        <h1>Registre company</h1>
+        <h1>Hello, Company!</h1>
+        <p>Enter your personal details and start journey with us</p>
       <Form.Item
         name="email"
         label="E-mail"

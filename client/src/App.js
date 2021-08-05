@@ -9,6 +9,7 @@ import EmployeeProfil from './pages/EmployeeProfil';
 import CompanyProfil from './pages/CompanyProfil';
 import AdminProfil from './pages/CompanyProfil';
 import Logout from './components/Logout';
+import Job from './pages/Job';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
       <Switch>
       <Route path="/" exact component={Home}/>
+      <Route path="/Job" exact component={Job}/>
       <Route  path="/registerEmployee" exact component= {SignupEmp}/>
       <Route  path="/registerCompany" exact component= {SignupComp}/>
       <Route  path="/employee" exact component= {EmployeeProfil}/>

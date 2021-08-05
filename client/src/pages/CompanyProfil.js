@@ -7,7 +7,7 @@ function CompanyProfil  ()  {
   const dispatch = useDispatch();
   useEffect(() => {
       dispatch(getEmployeeList())
-      console.log(employee)
+      // console.log(employee)
   }, [dispatch])
   
 
